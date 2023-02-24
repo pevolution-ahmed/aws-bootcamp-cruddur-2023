@@ -5,11 +5,14 @@
 - Pipe the environment variables from your CLI to The Container using the following command
     - ``` docker run --rm -p 4567:4567 -it -e FRONTEND_URL -e BACKEND_URL backend-flask```
     - or exceplicitly specify them as follows:``` docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask```
-## Checked the two Docker containers for react and flask is working
+## Checked the two Docker containers for react and flask is working or not?
 
+**Ports is working**
+![ports](./imgs/ports.png)
+
+**CRUDDER is working also ^^**
 ![home](./imgs/home.png)
 
-and yes every thing working fine!
 
 ---
 
