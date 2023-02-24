@@ -18,6 +18,6 @@ and yes every thing working fine!
 **Backend result**
 ![back](./imgs/notifications-backend.png)
 
-**Backend result**
+**Frontend result**
 ![front](./imgs/notifications-frontend.png)
 
