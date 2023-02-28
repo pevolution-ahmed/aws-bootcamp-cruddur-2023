@@ -38,3 +38,10 @@
     - **5432** -> postgres
     - ![ports](./imgs/ports_check_dy_ps.png)
 
+- Now let's check if dynamodb is working?
+    - ![dydb](./imgs/dynamodb.png)
+- And Postgres psql client also 
+    - ![postgres](./imgs/postgres.png)
+
+
+That's it for week one. I'm thinking about adding some homework problems the next week, and they should be relevant to Docker.
