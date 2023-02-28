@@ -24,3 +24,17 @@
 **Frontend result**
 ![front](./imgs/notifications-frontend.png)
 
+
+
+## Add dynamodb and postgresql containers to docker-compose
+
+- Do an *npm install* at the **frontend-react-js** folder if you don't already,  or it'll give an error when we try to run the front-end docker container container
+- Then add **dynamodb** and **postgress** services into docker-compose file ( as mentioned in the video)
+- Run ```docker-compose up``` and wait until every container is setuped correctly
+- Check the 4 ports is working as the mapping below 
+    - **3000** -> frontend
+    - **4567** -> backend
+    - **8000** -> dynamodb
+    - **5432** -> postgres
+    - ![ports](./imgs/ports_check_dy_ps.png)
+
